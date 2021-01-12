@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1898522599A79600A79105 /* traCO2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF1898502599A79600A79105 /* traCO2.xcdatamodeld */; };
+		CF47B3BD25823B4B00024C2E /* traCO2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47B3BC25823B4B00024C2E /* traCO2App.swift */; };
+		CF47B3BF25823B4B00024C2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47B3BE25823B4B00024C2E /* ContentView.swift */; };
+		CF47B3C125823B4D00024C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF47B3C025823B4D00024C2E /* Assets.xcassets */; };
+		CF47B3C425823B4D00024C2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF47B3C325823B4D00024C2E /* Preview Assets.xcassets */; };
+		CF47B3CD2582AA3000024C2E /* MainRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47B3CC2582AA3000024C2E /* MainRecordView.swift */; };
+		CF47B3D42583181800024C2E /* RegisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47B3D32583181800024C2E /* RegisView.swift */; };
+		CF47B3D825849CA100024C2E /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47B3D725849CA000024C2E /* RankView.swift */; };
+		CF47B3DC25849CDF00024C2E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47B3DB25849CDF00024C2E /* SettingView.swift */; };
+		CF47B3E025849CFD00024C2E /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47B3DF25849CFD00024C2E /* StatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF1898512599A79600A79105 /* traCO2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = traCO2.xcdatamodel; sourceTree = "<group>"; };
+		CF47B3B925823B4B00024C2E /* traCO2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = traCO2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF47B3BC25823B4B00024C2E /* traCO2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traCO2App.swift; sourceTree = "<group>"; };
+		CF47B3BE25823B4B00024C2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF47B3C025823B4D00024C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF47B3C325823B4D00024C2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF47B3C525823B4D00024C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF47B3CC2582AA3000024C2E /* MainRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRecordView.swift; sourceTree = "<group>"; };
+		CF47B3D32583181800024C2E /* RegisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisView.swift; sourceTree = "<group>"; };
+		CF47B3D725849CA000024C2E /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
+		CF47B3DB25849CDF00024C2E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		CF47B3DF25849CFD00024C2E /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF47B3B625823B4B00024C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF47B3B025823B4B00024C2E = {
+			isa = PBXGroup;
+			children = (
+				CF47B3BB25823B4B00024C2E /* traCO2 */,
+				CF47B3BA25823B4B00024C2E /* Products */,
+				CFE610F32588AF9100DEDCB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF47B3BA25823B4B00024C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF47B3B925823B4B00024C2E /* traCO2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF47B3BB25823B4B00024C2E /* traCO2 */ = {
+			isa = PBXGroup;
+			children = (
+				CF47B3BC25823B4B00024C2E /* traCO2App.swift */,
+				CF47B3BE25823B4B00024C2E /* ContentView.swift */,
+				CF47B3CC2582AA3000024C2E /* MainRecordView.swift */,
+				CF47B3D32583181800024C2E /* RegisView.swift */,
+				CF47B3D725849CA000024C2E /* RankView.swift */,
+				CF47B3DF25849CFD00024C2E /* StatView.swift */,
+				CF47B3DB25849CDF00024C2E /* SettingView.swift */,
+				CF47B3C025823B4D00024C2E /* Assets.xcassets */,
+				CF47B3C525823B4D00024C2E /* Info.plist */,
+				CF1898502599A79600A79105 /* traCO2.xcdatamodeld */,
+				CF47B3C225823B4D00024C2E /* Preview Content */,
+			);
+			path = traCO2;
+			sourceTree = "<group>";
+		};
+		CF47B3C225823B4D00024C2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF47B3C325823B4D00024C2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFE610F32588AF9100DEDCB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF47B3B825823B4B00024C2E /* traCO2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF47B3C825823B4D00024C2E /* Build configuration list for PBXNativeTarget "traCO2" */;
+			buildPhases = (
+				CF47B3B525823B4B00024C2E /* Sources */,
+				CF47B3B625823B4B00024C2E /* Frameworks */,
+				CF47B3B725823B4B00024C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = traCO2;
+			productName = traCO2;
+			productReference = CF47B3B925823B4B00024C2E /* traCO2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF47B3B125823B4B00024C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CF47B3B825823B4B00024C2E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = CF47B3B425823B4B00024C2E /* Build configuration list for PBXProject "traCO2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF47B3B025823B4B00024C2E;
+			productRefGroup = CF47B3BA25823B4B00024C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF47B3B825823B4B00024C2E /* traCO2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF47B3B725823B4B00024C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF47B3C425823B4D00024C2E /* Preview Assets.xcassets in Resources */,
+				CF47B3C125823B4D00024C2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF47B3B525823B4B00024C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF47B3BF25823B4B00024C2E /* ContentView.swift in Sources */,
+				CF47B3E025849CFD00024C2E /* StatView.swift in Sources */,
+				CF47B3D825849CA100024C2E /* RankView.swift in Sources */,
+				CF47B3CD2582AA3000024C2E /* MainRecordView.swift in Sources */,
+				CF47B3DC25849CDF00024C2E /* SettingView.swift in Sources */,
+				CF47B3BD25823B4B00024C2E /* traCO2App.swift in Sources */,
+				CF1898522599A79600A79105 /* traCO2.xcdatamodeld in Sources */,
+				CF47B3D42583181800024C2E /* RegisView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF47B3C625823B4D00024C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF47B3C725823B4D00024C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF47B3C925823B4D00024C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"traCO2/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PKW6926KX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = traCO2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.traCO2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF47B3CA25823B4D00024C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"traCO2/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PKW6926KX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = traCO2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.traCO2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF47B3B425823B4B00024C2E /* Build configuration list for PBXProject "traCO2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF47B3C625823B4D00024C2E /* Debug */,
+				CF47B3C725823B4D00024C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF47B3C825823B4D00024C2E /* Build configuration list for PBXNativeTarget "traCO2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF47B3C925823B4D00024C2E /* Debug */,
+				CF47B3CA25823B4D00024C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF1898502599A79600A79105 /* traCO2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF1898512599A79600A79105 /* traCO2.xcdatamodel */,
+			);
+			currentVersion = CF1898512599A79600A79105 /* traCO2.xcdatamodel */;
+			path = traCO2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF47B3B125823B4B00024C2E /* Project object */;
+}
