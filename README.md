@@ -1,2 +1,2 @@
 # traCO2
-keep track of your carbon footprint
+Keep track of your carbon footprint!
